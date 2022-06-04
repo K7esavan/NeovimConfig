@@ -33,5 +33,6 @@ return require('packer').startup(
             end
         }
         use {"ellisonleao/glow.nvim", branch = 'main'}
+        use 'kdheepak/lazygit.nvim'
     end
     ) 
