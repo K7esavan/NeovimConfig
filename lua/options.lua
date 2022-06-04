@@ -5,6 +5,8 @@ vim.o.scrolloff = 7
 vim.o.completeopt = 'menuone,noinsert,noselect'
 vim.o.shortmess = vim.o.shortmess .. 'c'
 vim.o.showmode = true
+vim.o.termguicolors = true
+vim.cmd('colo NeoSolarized')
 
 vim.wo.number = false
 vim.wo.relativenumber = false
